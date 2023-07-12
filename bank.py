@@ -9,7 +9,7 @@ class bankaccount:
         if len(zelle_ID)!=5:
             print("zelle_ID length not reached, make sure it is 5 letters long and lower case")
         elif zelle_ID!=zelle_ID.lower():
-            print("zelle ID must be lower")
+            print("zelle ID must be lowercase")
         elif zelle_ID in self.registered_accounts:
             print("Zelle ID currently in use, select another")
         else:
